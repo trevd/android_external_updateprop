@@ -1,0 +1,7 @@
+Update Prop
+===========
+
+Update Readonly Properties - Root Required. Not compitable with ICS.
+
+Inspired by @poliva setpropex utility.
+https://github.com/poliva/rootadb/blob/master/jni/setpropex.c
