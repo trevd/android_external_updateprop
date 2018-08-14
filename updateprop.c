@@ -28,6 +28,9 @@
 
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
+#ifndef PA_SIZE
+#define PA_SIZE         (128 * 1024)
+#endif
 extern void *__system_property_area__;
 
 int main(int argc, char** argv)
